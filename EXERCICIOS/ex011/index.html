@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens dinanmicas</h1>
+    <p>Tente abrir esse site em varios dispositivos diferentes, ou simplismente aumente e diminua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-M.png" type="image/png">
+        <img src="imagens/foto-G.png" alt="imagem flexivel">
+    </picture>
+    <h1>Reproduzindo audio</h1>
+    <p>Vamos aprender a reproduzir audio</p>
+    <audio src="midia/Kazoom -Quincas Moreira.mp3"controls autoplay></audio>
+    <audio preload="metadata" autoplay>
+        <source src="midia/Kazoom -Quincas Moreira.mp3" type="audio/mpeg">
+        <source src="midia/Kazoom -Quincas Moreira.mp3" type="audio/ogg">
+        <source src="midia/Kazoom -Quincas Moreira.mp3" type="audio/wav">
+        <p>Infelizmente o seu navegador não consegue reproduzir o audio</p>
+        <a href="midia/Kazoom -Quincas Moreira.mp3">clique aqui para baixar o audio em MP3</a>
+    </audio>
+</body>
+</html>

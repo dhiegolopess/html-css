@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+
+        /* SELETORES PERSONALIZADOS
+        #   = id
+        .   = class
+        :   = pseudo-class
+        ::  = pseudo-element
+        >   = clildren (filho)
+        */
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited{
+            color: darkred;
+        }
+
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active{
+            color: yellow;
+        }
+
+        .especial{
+            background-color: rgb(209, 133, 133);
+        }
+
+        .especial::before{
+            content: '✓';
+
+        }
+
+        .especial::after{
+            content: '✓';
+
+
+           
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://wa.me/qr/TDWKBOFBWPWID1"target="_blanck">Meu Whatszap</a></li>
+        <li><a href="https://www.nuvemshop.com.br/loja-virtual?utm_source=bing&utm_medium=cpc&utm_campaign=br-web-search-nobrand-general-device_c-id_&msclkid=33bc29f164c211c78c6f4e4cf12b1a81"target="_blanck" class="especial">loja virtual</a></li>
+        <li><a href="https://www.cursoemvideo.com"target="_blanck" class="especial">Site do curso em video</a></li>
+    </ul>
+    
+</body>
+</html>
