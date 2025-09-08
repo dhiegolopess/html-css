@@ -44,18 +44,18 @@ section{
 
 section.normal{
     background-color: white;
-    color: white;
+    color: black;
 }
 
 section.imagem{
-    background-color: rgba(0, 0, 0, 0.838);
+    background-color: rgba(45, 45, 45, 0.182);
     color: white;
 
 }
 
-section.imagem{
+section.imagem > p{
     width: 400px;
-    background-color: rgba(0, 0, 0, 0.642);
+    background-color: rgba(0, 0, 0, 0.275);
 }
 
 footer{
